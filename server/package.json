@@ -1,0 +1,41 @@
+{
+  "name": "api.logistics.agentsoncloud.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agents-on-cloud/api.logistics.agentsoncloud.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agents-on-cloud/api.logistics.agentsoncloud.com/issues"
+  },
+  "homepage": "https://github.com/agents-on-cloud/api.logistics.agentsoncloud.com#readme",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "prettier": "^2.7.1",
+    "react-script": "^2.0.5",
+    "sequelize": "^6.21.3",
+    "sequelize-erd": "^1.3.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0"
+  }
+}
